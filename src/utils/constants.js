@@ -69,7 +69,7 @@ export const projects = [
     img: "../assets/myproject/portfolio.jpg",
     title: "Portfolio",
     description: "ReactJS",
-    gitLink: "https://github.com/",
+    gitLink: "https://github.com/mynguyen98/my-portfolio",
     demoLink: "https://github.com/",
   },
 ];
