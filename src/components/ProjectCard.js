@@ -22,9 +22,12 @@ function ProjectCards(props) {
         <Card.Body class="card-body">
           <Card.Title class="card-title">{props.title}</Card.Title>
           <Card.Text style={{ textAlign: "justify", fontSize: "1.8rem" }}>
+            {props.tech}
+          </Card.Text>
+          <Card.Text style={{ textAlign: "justify", fontSize: "1.8rem" }}>
             {props.description}
           </Card.Text>
-          <div>
+          <div className="card-btn-container">
             <Button
               variant="primary"
               href={props.gitLink}
@@ -56,8 +59,9 @@ function ProjectCards(props) {
 }
 
 const CardContainer = styled.div`
-  margin-bottom: 3.2rem;
+  height: 100%;
   .project-card-view {
+    height: 100%;
     background-color: transparent;
     padding-bottom: 3.2rem;
     border: 1px solid rgba(199, 112, 240, 0.7);
@@ -105,6 +109,10 @@ const CardContainer = styled.div`
   }
   .card-title {
     font-size: 2rem;
+    font-weight: 500;
+  }
+  .card-btn-container {
+    margin-top: auto;
   }
 `;
 

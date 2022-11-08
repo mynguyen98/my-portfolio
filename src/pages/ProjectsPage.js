@@ -21,9 +21,14 @@ function ProjectsPage() {
           <p className="project-subheading">
             Here are a few projects I've worked on recently.
           </p>
-          <Row style={{ justifyContent: "center", padding: "32px 0" }}>
+          <Row
+            style={{
+              justifyContent: "center",
+              padding: "32px 0",
+            }}
+          >
             {projects.map((project, index) => {
-              const { title, description, gitLink, demoLink } = project;
+              const { title, tech, description, gitLink, demoLink } = project;
               return (
                 <Col md={6} lg={4} className="project-card">
                   <ProjectCard
@@ -33,6 +38,7 @@ function ProjectsPage() {
                     description={description}
                     gitLink={gitLink}
                     demoLink={demoLink}
+                    tech={tech}
                   />
                 </Col>
               );
@@ -56,6 +62,7 @@ const ProjectContainer = styled.section`
   }
   .project-card {
     padding: 0 24px 0 24px;
+    margin-bottom: 3.2rem;
   }
   .purple {
     color: var(--imp-text-color);

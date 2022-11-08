@@ -32,44 +32,55 @@ export const links = [
 export const projects = [
   {
     img: "../assets/myproject/shopee.jpg",
+    tech: "HTML, CSS",
     title: "shopee",
-    description: "HTML, CSS",
+    description: `this project build along with the course HTML, CSS, with fully responsive on all devices`,
     gitLink: "https://github.com/mynguyen98/shopee-clone",
-    demoLink: "https://github.com/",
+    demoLink: "https://shopee-page-mynguyen.netlify.app",
   },
   {
     img: "../assets/myproject/lux-stay.jpg",
+    tech: "HTML, CSS",
     title: "luxstay",
-    description: "HTML, CSS",
+    description:
+      "Luxstay clone is the project I built after finish HTML,CSS course, fully responsive on all devices \n \n",
     gitLink: "https://github.com/mynguyen98/luxstay-clone",
-    demoLink: "https://github.com/",
+    demoLink: "https://mynguyen-luxstay.netlify.app",
   },
   {
     img: "../assets/myproject/forkify-app.jpg",
+    tech: "HTML, CSS, JavaScript",
     title: "forkify",
-    description: "HTML, CSS, Javascript",
+    description:
+      "this project build along with the course javascript. Has key feature such as search for ingredients of a dish, save search history, add to Bookmark and add your own recipe",
     gitLink: "https://github.com/",
-    demoLink: "https://github.com/",
+    demoLink: "https://mynguyen-forkify.netlify.app",
   },
   {
     img: "../assets/myproject/nhaccuatui.jpg",
+    tech: "HTML, CSS, JavaScript",
     title: "nhaccuatui",
-    description: "HTML, CSS, Javascript",
+    description:
+      "main features are render songs and albums with all basic playing music function. Searching songs, albums, artists. Add songs to love song list \n",
     gitLink: "https://github.com/mynguyen98/nhaccuatui-app",
-    demoLink: "https://github.com/",
+    demoLink: "https://nhaccuatui-mynguyen.netlify.app",
   },
   {
     img: "../assets/myproject/comfy-sloth.jpg",
+    tech: "ReactJS, CSS, Styled Components",
     title: "comfy-sloth",
-    description: "ReactJS",
+    description:
+      "This project is the ecommerce website selling furniture. This project has key features such as: fully responsive, register, login, logout, filter products,......",
     gitLink: "https://github.com/mynguyen98/comfy-sloth-reactjs",
-    demoLink: "https://github.com/",
+    demoLink: "https://comfy-sloth-mynguyen.netlify.app",
   },
   {
     img: "../assets/myproject/portfolio.jpg",
+    tech: "ReactJS, React Bootstrap, Styled Component",
     title: "Portfolio",
-    description: "ReactJS",
+    description:
+      "This project list all information about me and all of my projects that I build. \n \n",
     gitLink: "https://github.com/mynguyen98/my-portfolio",
-    demoLink: "https://github.com/",
+    demoLink: "https://mynguyen-portfolio.netlify.app/",
   },
 ];

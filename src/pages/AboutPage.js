@@ -28,7 +28,7 @@ const AboutPage = () => {
                 Apart from coding, some other activities that I love to do!
                 <br />
                 <br />
-                <ImPointRight /> I really love to guide for people
+                <ImPointRight /> I really love to guide for others
                 <br />
                 <ImPointRight /> Playing Instrument
                 <br />

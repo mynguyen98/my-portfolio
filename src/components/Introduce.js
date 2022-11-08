@@ -28,14 +28,14 @@ function Introduce() {
                 <i>
                   {" "}
                   <b className="purple">
-                    ReactJS, React Bootstrap, Styled Components{" "}
+                    ReactJS, React Bootstrap, Styled Components.{" "}
                   </b>
                 </i>
                 <br />
                 <br />
                 My field of Interest's are building new &nbsp;
                 <i>
-                  <b className="purple">Web Technologies and Products </b>
+                  <b className="purple">Web Technologies and Products. </b>
                 </i>
                 <br />
                 <br />
@@ -59,7 +59,7 @@ function Introduce() {
               <ul className="home-about-social-links">
                 <li className="social-icons">
                   <a
-                    href="https://github.com/soumyajit4419"
+                    href="https://github.com/mynguyen98"
                     className=" home-social-icons"
                   >
                     <AiFillGithub />
@@ -67,7 +67,7 @@ function Introduce() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://twitter.com/Soumyajit4419"
+                    href="https://www.facebook.com/canhmy1998/"
                     className=" home-social-icons"
                   >
                     <FaFacebook />
@@ -75,7 +75,7 @@ function Introduce() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://www.linkedin.com/in/soumyajit4419/"
+                    href="https://www.linkedin.com/in/m%E1%BB%B9-nguy%E1%BB%85n-c%E1%BA%A3nh-7034ab222/"
                     className=" home-social-icons"
                   >
                     <FaLinkedinIn />
@@ -83,7 +83,7 @@ function Introduce() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://www.instagram.com/soumyajit4419"
+                    href="https://www.instagram.com/xuoimy/"
                     className="home-social-icons"
                   >
                     <AiFillInstagram />
